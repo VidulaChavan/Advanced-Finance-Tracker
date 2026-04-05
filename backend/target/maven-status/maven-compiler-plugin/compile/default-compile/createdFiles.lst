@@ -1,0 +1,16 @@
+com\lifesync\controllers\AuthController$LoginRequest.class
+com\lifesync\config\WebConfig.class
+com\lifesync\controllers\ExpenseController.class
+com\lifesync\LifeSyncApplication.class
+com\lifesync\controllers\ExpenseController$ExpenseRequest.class
+com\lifesync\controllers\ReminderController$ReminderRequest.class
+com\lifesync\repositories\ReminderRepository.class
+com\lifesync\models\Reminder.class
+com\lifesync\repositories\ExpenseRepository.class
+com\lifesync\controllers\AuthController.class
+com\lifesync\models\Expense.class
+com\lifesync\controllers\AuthController$SignupRequest.class
+com\lifesync\controllers\PredictionController.class
+com\lifesync\models\User.class
+com\lifesync\controllers\ReminderController.class
+com\lifesync\repositories\UserRepository.class
