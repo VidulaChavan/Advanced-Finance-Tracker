@@ -1,0 +1,161 @@
+.authContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-beige);
+  padding: 2rem;
+}
+
+.authCard {
+  background: var(--card-bg);
+  padding: 3rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid var(--border-color);
+}
+
+.authTitle {
+  font-size: 2rem;
+  color: var(--primary-navy);
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.authSubtitle {
+  color: #718096;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  font-family: var(--font-family);
+  background-color: #F8FAFC;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-navy);
+  box-shadow: 0 0 0 3px rgba(26, 32, 44, 0.1);
+  background-color: white;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 1rem;
+  top: 2.3rem; /* Adjusted for label height */
+  background: none;
+  border: none;
+  color: var(--primary-navy);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.passwordStrength {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.strengthBar {
+  flex: 1;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--border-color);
+  transition: background-color var(--transition-normal);
+}
+
+.strengthWeak { background-color: var(--accent-coral); }
+.strengthMedium { background-color: var(--accent-gold); }
+.strengthStrong { background-color: #38A169; }
+
+.strengthText {
+  font-size: 0.8rem;
+  color: #718096;
+  text-align: right;
+  margin-top: 0.25rem;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.checkbox {
+  margin-top: 0.25rem;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  font-size: 0.9rem;
+  color: #4A5568;
+  line-height: 1.5;
+}
+
+.submitBtn {
+  width: 100%;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.switchAuth {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #718096;
+}
+
+.link {
+  color: var(--primary-navy);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.errorMsg {
+  color: var(--accent-coral);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.successMsg {
+  color: #38A169;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 0.75rem;
+  background-color: #F0FFF4;
+  border-radius: var(--radius-md);
+  border: 1px solid #C6F6D5;
+}
